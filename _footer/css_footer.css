@@ -1,0 +1,25 @@
+footer{
+    /* background-color: #D9D9D9;
+    background-color: rgba(100, 158, 243,0.8);*/
+    background-color: rgba(255, 255,255, 0.8); 
+    color: #818181;
+    padding: 2vw;
+}
+
+footer h3{
+    color: #649EF3;
+    text-align: center;
+    margin: 1vw;
+}
+
+footer a i:hover, footer .fa-facebook-messenger{
+    color: #818181;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+footer a i, footer a, footer .fa-facebook-messenger:hover{
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px black;
+}

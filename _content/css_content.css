@@ -1,0 +1,28 @@
+.description{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 5vw;
+    min-height: 40vw;
+}
+
+.description:last-child{
+    border-bottom: none;
+}
+
+.description h1{
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hdivider{
+    /* border-bottom: rgba(0,0,0,0.3) solid 1px; */
+    /* border-bottom: #649EF3 solid 1px; */
+    border-bottom: white solid 1px;
+}
+
+.vdivider{
+    border-right: rgba(0,0,0,0.3) solid 1px;
+}

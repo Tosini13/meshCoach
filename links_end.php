@@ -6,7 +6,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <!-- JS -->
 <!-- INTERNAL -->
-<!-- <script src="_header/js_menu.js" type="text/javascript"></script> -->
+<script src="_header/js_menu.js" type="text/javascript"></script>
 <script src="_slider/js_slide_down.js" type="text/javascript"></script>
 <!-- END INTERNAL -->
 <!-- EXTERNAL -->

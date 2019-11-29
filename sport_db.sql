@@ -2,7 +2,7 @@ drop database sport;
 create database sport;
 
 use sport;
-
+SET NAMES 'utf8';
 create table description(
 id int not null auto_increment,
 title varchar(30),
@@ -14,3 +14,5 @@ insert into description(title, photo, content) values("MechCouch", "<i class='fa
 insert into description(title, photo, content) values("dlaczego uzywac?", "<i class='fas fa-question-circle'></i>", "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?");
 insert into description(title, photo, content) values("o nas", "<i class='fas fa-universal-access'></i>", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
 insert into description(title, photo, content) values("pobierz aplikacje", "<i class='fas fa-cloud-download-alt'></i>", "Aplikacja jest dostepna w sklepach na telefonach z systemem android.<br>https://www.lipsum.com/");
+
+update description set content="Oczko Trenera - Aplikacja dla rodziców, trenerów i młodych sportowców. Dzięki naszej aplikacji w prosty i ławy sposób możesz śledzić poczynania boiskowe wybranego przez siebie zawodnika / zawodniczki, podczas treningu lub meczu. Oczko Trenera zostało stworzone z myślą o analizie własnych statystyk, które pozwolą rozwijać sportowe umiejętności oraz osiągnąć mistrzowski poziom. Naszą Misją jest dostarczenie systemu, który w łatwy i przyjazny sposób wskaże młodemu zawodnikowi gotowe narzędzia do podniesienia własnej skuteczności podczas gry. Naszą Wizją jest, dostarczać zawodnikom efektywnych narzędzi do poprawy własnych umiejętności.", title="OczkoTrenera" where id=1;
